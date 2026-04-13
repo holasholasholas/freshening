@@ -3,7 +3,7 @@ import { motion } from 'motion/react';
 import { ArrowRight } from 'lucide-react';
 
 export default function Hero() {
-  const videoRef = useRef<HTMLVideoElement>(null);;
+  const videoRef = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {
     if (videoRef.current) {
